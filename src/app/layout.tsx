@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Shivam Ranjan - Frontend Developer & Creative Technologist",
-  description: "Full-Stack Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies. View my portfolio of projects and get in touch for collaboration opportunities.",
+  description: "Frontend Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies. View my portfolio of projects and get in touch for collaboration opportunities.",
   keywords: [
     "Shivam Ranjan",
     "Frontend Developer", 
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   classification: "Portfolio",
   openGraph: {
     title: "Shivam Ranjan - Frontend Developer & Creative Technologist",
-    description: "Full-Stack Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies.",
+    description: "Frontend Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies.",
     type: "website",
     url: "https://thefrontify.com",
     siteName: "Shivam Ranjan Portfolio",
@@ -56,14 +56,14 @@ export const metadata: Metadata = {
         url: "/my-logo.png",
         width: 1200,
         height: 630,
-        alt: "Shivam Ranjan - Full-Stack Developer",
+        alt: "Shivam Ranjan - Frontend Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shivam Ranjan - Full-Stack Developer & Creative Technologist",
-    description: "Full-Stack Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies.",
+    title: "Shivam Ranjan - Frontend Developer & Creative Technologist",
+    description: "Frontend Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies.",
     images: ["/my-logo.png"],
     creator: "@shivamranjan",
   },
