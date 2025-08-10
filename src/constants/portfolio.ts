@@ -2,7 +2,7 @@
 export const HERO_SECTION = {
   name: "Shivam",
   initials: "SR",
-  title: "Full-Stack Developer & Creative Technologist",
+  title: "Frontend Developer & Creative Technologist",
   description: "I build innovative web applications that combine cutting-edge technology with beautiful design. Passionate about creating seamless user experiences and scalable solutions.",
   primaryButton: "View My Work",
   secondaryButton: "Download CV"

@@ -13,15 +13,66 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shivam Ranjan - Portfolio",
-  description: "Full-stack developer and creative technologist passionate about building innovative web applications",
-  keywords: ["portfolio", "developer", "full-stack", "web development", "react", "next.js"],
+  title: "Shivam Ranjan - Frontend Developer & Creative Technologist",
+  description: "Full-Stack Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies. View my portfolio of projects and get in touch for collaboration opportunities.",
+  keywords: [
+    "Shivam Ranjan",
+    "Frontend Developer", 
+    "React Developer",
+    "Next.js Developer",
+    "TypeScript Developer",
+    "Web Developer",
+    "Frontend Developer",
+    "Portfolio",
+    "Web Development",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Strapi CMS",
+    "Redux",
+    "Playwright",
+    "Jenkins",
+    "Jira",
+    "Confluence",
+    "Git"
+  ],
   authors: [{ name: "Shivam Ranjan" }],
   creator: "Shivam Ranjan",
+  publisher: "Shivam Ranjan",
+  robots: "index, follow",
+  viewport: "width=device-width, initial-scale=1",
+  category: "Technology",
+  classification: "Portfolio",
   openGraph: {
-    title: "Shivam Ranjan - Portfolio",
-    description: "Full-stack developer and creative technologist",
+    title: "Shivam Ranjan - Frontend Developer & Creative Technologist",
+    description: "Full-Stack Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies.",
     type: "website",
+    url: "https://thefrontify.com",
+    siteName: "Shivam Ranjan Portfolio",
+    locale: "en_US",
+    images: [
+      {
+        url: "/my-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Shivam Ranjan - Full-Stack Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shivam Ranjan - Full-Stack Developer & Creative Technologist",
+    description: "Full-Stack Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies.",
+    images: ["/my-logo.png"],
+    creator: "@shivamranjan",
+  },
+  alternates: {
+    canonical: "https://thefrontify.com",
+  },
+  other: {
+    "theme-color": "#1f2937",
+    "color-scheme": "dark",
   },
 };
 
