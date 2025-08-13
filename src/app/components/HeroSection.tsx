@@ -10,7 +10,7 @@ interface HeroSectionProps {
 
 export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
   return (
-    <section id="home" className="pt-20 pb-16 mt-8 px-4 sm:px-6 lg:px-8">
+    <section id="home" className="pt-20 pb-16 mt-8 px-4 sm:px-6 lg:px-8 scroll-mt-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <motion.div
