@@ -1,3 +1,5 @@
+
+const currentYear=new Date().getFullYear()
 // Hero Section Constants
 export const HERO_SECTION = {
   name: "Shivam",
@@ -56,22 +58,22 @@ export const PROJECTS_SECTION = {
   title: "Featured Projects",
   projects: [
     {
-      title: "E-Pharma, E-Commerce Platform",
-      description: "E-commerce Platform with React, Node.js, and Stripe integration",
+      title: "E-Pharma, E-Commerce Platform websites",
+      description: "E-commerce Platform with React, Node.js,next js and Stripe integration",
       tech: ["React", "Node.js", "Nextjs", "Stripe"],
       image: "/api/placeholder/400/250",
       link: "#"
     },
     {
       title: "Different  Management Portals",
-      description: "Real-time collaborative task management with call and B to C portal functionality",
+      description: "Real-time collaborative task management with call and B2C portal functionality",
       tech: ["Next.js", "React.js", "Tailwind","Firebase"],
       image: "/api/placeholder/400/250",
       link: "#"
     },
 
     {
-      title: "B-C website for a company",
+      title: "B2C website for a company",
       description: "Modern, responsive portfolio with animations and dark theme",
       tech: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
       image: "/api/placeholder/400/250",
@@ -114,7 +116,7 @@ export const CONTACT_SECTION = {
     },
     {
       type: "linkedin",
-      label: "linkedin",
+      label: "linkedin/shivam-ranjan",
       href: "https://www.linkedin.com/in/shivam-ranjan-b57a28150/",
       icon: "Linkedin"
     }
@@ -132,7 +134,7 @@ export const CONTACT_SECTION = {
 
 // Footer Constants
 export const FOOTER = {
-  text: "© 2024 Shivam Ranjan. Built with Next.js, Tailwind CSS, and lots of ☕"
+  text: `© ${currentYear} Shivam Ranjan. Built with Next.js, Tailwind CSS, and lots of ☕`
 };
 
 // Navigation Constants
@@ -142,11 +144,3 @@ export const NAVIGATION = {
 };
 
 // General Portfolio Info
-export const PORTFOLIO_INFO = {
-  name: "Shivam Ranjan",
-  role: "Full-Stack Developer",
-  location: "Your Location",
-  email: "shivam@example.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername"
-};

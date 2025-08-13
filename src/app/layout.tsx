@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -14,10 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Shivam Ranjan - Frontend Developer & Creative Technologist",
-  description: "Frontend Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies. View my portfolio of projects and get in touch for collaboration opportunities.",
+  description:
+    "Frontend Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies. View my portfolio of projects and get in touch for collaboration opportunities.",
   keywords: [
     "Shivam Ranjan",
-    "Frontend Developer", 
+    "Frontend Developer",
     "React Developer",
     "Next.js Developer",
     "TypeScript Developer",
@@ -35,35 +36,29 @@ export const metadata: Metadata = {
     "Jenkins",
     "Jira",
     "Confluence",
-    "Git"
+    "Git",
   ],
   authors: [{ name: "Shivam Ranjan" }],
   creator: "Shivam Ranjan",
   publisher: "Shivam Ranjan",
   robots: "index, follow",
-  viewport: "width=device-width, initial-scale=1",
   category: "Technology",
   classification: "Portfolio",
   openGraph: {
     title: "Shivam Ranjan - Frontend Developer & Creative Technologist",
-    description: "Frontend Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies.",
+    description:
+      "Frontend Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies.",
     type: "website",
     url: "https://thefrontify.com",
     siteName: "Shivam Ranjan Portfolio",
     locale: "en_US",
-    images: [
-      {
-        url: "/my-logo.png",
-        width: 1200,
-        height: 630,
-        alt: "Shivam Ranjan - Frontend Developer",
-      },
-    ],
+    images: ["/my-logo.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Shivam Ranjan - Frontend Developer & Creative Technologist",
-    description: "Frontend Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies.",
+    description:
+      "Frontend Developer with 4+ years of experience building innovative web applications. Specializing in React, Next.js, TypeScript, and modern web technologies.",
     images: ["/my-logo.png"],
     creator: "@shivamranjan",
   },
@@ -74,6 +69,11 @@ export const metadata: Metadata = {
     "theme-color": "#1f2937",
     "color-scheme": "dark",
   },
+};
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#1f2937",
 };
 
 export default function RootLayout({

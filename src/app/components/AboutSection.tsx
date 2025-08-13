@@ -6,7 +6,7 @@ import { ABOUT_SECTION } from "../../constants/portfolio";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
+    <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900 scroll-mt-8">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -47,10 +47,10 @@ export default function AboutSection() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -50 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="relative"
+            className="relative w-full"
           >
             <div className="w-full h-96 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center">
               <div className="text-center text-white">

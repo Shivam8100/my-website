@@ -23,7 +23,7 @@ export default function MobileNav({ onNavigate, activeSection }: MobileNavProps)
     <div className="md:hidden">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors"
+        className="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors focus:outline-none focus:ring-0 focus-visible:outline-none focus-visible:ring-0 text-white"
       >
         {isOpen ? <FiX size={20} /> : <FiMenu size={20} />}
       </button>
@@ -42,7 +42,7 @@ export default function MobileNav({ onNavigate, activeSection }: MobileNavProps)
                 <button
                   key={section}
                   onClick={() => handleNavigate(section)}
-                  className={`w-full text-left px-4 py-3 rounded-lg capitalize transition-colors ${
+                  className={`w-full text-left px-4 py-3 rounded-lg capitalize transition-colors focus:outline-none focus:ring-0 focus-visible:outline-none focus-visible:ring-0 ${
                     activeSection === section
                       ? "bg-blue-900 text-blue-400"
                       : "text-gray-300 hover:bg-gray-800"
