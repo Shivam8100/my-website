@@ -12,9 +12,13 @@ interface MobileNavProps {
 export default function MobileNav({ onNavigate, activeSection }: MobileNavProps) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const sections = ["home", "about", "skills", "projects", "contact"];
+  const sections = ["home", "about", "skills", "projects", "contact","blog"];
 
   const handleNavigate = (section: string) => {
+    if( section === "blog") {
+      window.open("https://blog.thefrontify.com/", "_blank");
+      return;
+    }
     onNavigate(section);
     setIsOpen(false);
   };

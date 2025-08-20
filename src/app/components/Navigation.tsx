@@ -14,6 +14,14 @@ export default function Navigation({
   activeSection,
   onNavigate,
 }: NavigationProps) {
+
+   const handleNavigate = (section: string) => {
+    if (section==="blog"){
+      window.open("https://blog.thefrontify.com/", "_blank");
+      return;
+    }
+    onNavigate(section);
+  }
   return (
     <nav className="fixed top-0 w-full z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,9 +35,9 @@ export default function Navigation({
               src="/my-logo.png"
               alt="Shivam Ranjan Logo"
               width={100}
-              height={28}
+              height={20}
               priority
-              className="h-8 w-auto"
+              className="h-20 w-auto"
             />
           </motion.div>
 
@@ -37,7 +45,7 @@ export default function Navigation({
             {NAVIGATION.sections.map((section) => (
               <button
                 key={section}
-                onClick={() => onNavigate(section)}
+                onClick={()=>handleNavigate(section)}
                 className={`capitalize hover:text-blue-400 transition-colors ${
                   activeSection === section ? "text-blue-400" : "text-gray-300"
                 }`}
