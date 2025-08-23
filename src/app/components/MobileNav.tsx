@@ -12,7 +12,7 @@ interface MobileNavProps {
 export default function MobileNav({ onNavigate, activeSection }: MobileNavProps) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const sections = ["home", "about", "skills", "projects", "contact","blog"];
+  const sections = ["home", "about", "skills", "projects", "contact"];
 
   const handleNavigate = (section: string) => {
     if( section === "blog") {
