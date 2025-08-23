@@ -140,7 +140,7 @@ export const FOOTER = {
 // Navigation Constants
 export const NAVIGATION = {
   brand: "Shivam Ranjan",
-  sections: ["home", "about", "skills", "projects", "contact","blog"]
+  sections: ["home", "about", "skills", "projects", "contact"]
 };
 
 // General Portfolio Info
