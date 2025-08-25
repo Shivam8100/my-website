@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FiDownload, FiChevronDown } from "react-icons/fi";
-import { HERO_SECTION } from "../../constants/portfolio";
+import { HERO_SECTION, RESUME_URL } from "../../constants/portfolio";
 
 interface HeroSectionProps {
   onScrollToSection: (sectionId: string) => void;
@@ -49,7 +49,7 @@ export default function HeroSection({ onScrollToSection }: HeroSectionProps) {
               {HERO_SECTION.primaryButton}
             </button>
             <button 
-              onClick={() => window.open('https://drive.google.com/file/d/1hdY278asB31azGPgsbJq7G4xrXrufzta/view', '_blank', 'noopener,noreferrer')}
+              onClick={() => window.open(RESUME_URL, '_blank', 'noopener,noreferrer')}
               className="px-8 py-3 border-2 border-gray-600 text-gray-300 rounded-full font-semibold hover:bg-gray-800 transition-all duration-300"
             >
               <FiDownload className="inline mr-2" size={20} />
